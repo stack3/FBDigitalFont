@@ -1,10 +1,10 @@
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "FBFontSymbol.h"
 
-typedef enum {
+typedef NS_ENUM(NSInteger, FBFontDotType) {
     FBFontDotTypeSquare,
     FBFontDotTypeCircle
-} FBFontDotType;
+};
 
 @interface FBBitmapFont : NSObject
 + (void)drawBackgroundWithDotType:(FBFontDotType)dotType

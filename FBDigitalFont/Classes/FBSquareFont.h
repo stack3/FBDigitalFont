@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "FBFontSymbol.h"
 
 @interface FBSquareFont : NSObject

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-typedef enum {
+typedef NS_ENUM(NSInteger, FBFontSymbolType) {
   FBFontSymbol0 = 0,
   FBFontSymbol1,
   FBFontSymbol2,
@@ -45,7 +45,7 @@ typedef enum {
   FBFontSymbolSpace,
   FBFontSymbolExclamationMark,
   FBFontSymbolColon,
-} FBFontSymbolType;
+};
 
 @interface FBFontSymbol : NSObject
 + (NSArray *)symbolsForString:(NSString *)str;
